@@ -1,0 +1,16 @@
+			body {color:#3CB371; font-family:Comic Sans MS; font-size: 20pt; background-color:#F0FFF0}
+			img{
+				max-width: 100%;    
+			}
+			.wrapper-img{    
+				position: relative;
+				max-width: 300px;
+			}
+			.wrapper-img .img-hide{    
+				opacity: 0;      
+			}
+			.wrapper-img:hover .img-hide{
+				opacity: 1;
+				position: absolute; top: 0; left: 0;  
+				transition: all 0.5s ease-in-out;   
+			}

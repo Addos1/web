@@ -1,0 +1,13 @@
+body {color:#2F4F4F; font-family:Arial; font-size: 15pt; background-color:#E9967A; }
+			
+			html, body {
+			  margin-left:20%;
+				margin-right:20%;}
+
+			.profile-picture {
+			  border-radius: 50%;}
+			
+			p { margin-left:20%;
+				margin-right:20%; }
+			p:hover {
+			  background-color: rgba(0, 0, 0, 0.2);}

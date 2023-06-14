@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<HTML lang="de">
+	<HEAD>
+		<TITLE>&uuml;ber mich</TITLE>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="index.css">
+		
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  	
+
+	
+	
+	
+	</HEAD>
+	<BODY >
+		
+		<ul class="menu-main">
+		  <li><a href="" class="current">Home</a></li>
+		  <li><a href="hobby.html">Hobby</a></li>
+		  
+		  <li><a href="Ausbildung.html">Ausbildung</a></li>
+		  <li><a href="Familie.html">Familie</a></li>
+		  <li><a href="index_info.php">Info</a></li>
+		  <li><a href="index_extentions.php">Extentions</a></li>
+		  <li><a href="Login.html">Login</a></li>
+		</ul>
+		
+		
+		
+
+		<div class="container">
+
+		
+			<div class='row'>
+			
+				<div class="col-sm-5" >
+			
+				<img class="profile-picture" src="Adel.jpg" width="250" ALT="Adel">
+				
+				<div style="background-color:lavender;">
+				<h1 class="name">Adel Dosmaganbetova</h1>
+				<h4 class="subtitle">Studentin der Wirtschaftsinformatik</h4>
+				</div>
+			</div>
+				<div class="col-sm-5" style="background-color:lavenderblush;>
+				
+			
+				<p class="bio">
+					Hallo, mein Name ist Adel. Ich bin 20 Jahre alt.
+					Ich bin sehr neugierig, bescheiden und sehr interessant.
+					Vielen Dank f&uuml;r Ihren Besuch auf meiner Seite.  
+				</p>
+				
+			</div>
+		</div>
+		</div>
+	</BODY>
+</HTML>

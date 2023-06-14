@@ -1,0 +1,9 @@
+body {color:#DAA520; font-family:Times New Roman; font-size: 20pt; background-color:#800000;
+			 }			
+			div.a {margin-right:20%; margin-left:20%;}
+
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+  }

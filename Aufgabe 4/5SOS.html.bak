@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<HTML>
+	<HEAD>
+		<TITLE>5SOS</TITLE>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<style> 
+			body {color:#3CB371; font-family:Comic Sans MS; font-size: 20pt; background-color:#F0FFF0}
+			img{
+				max-width: 100%;    
+			}
+			.wrapper-img{    
+				position: relative;
+				max-width: 300px;
+			}
+			.wrapper-img .img-hide{    
+				opacity: 0;      
+			}
+			.wrapper-img:hover .img-hide{
+				opacity: 1;
+				position: absolute; top: 0; left: 0;  
+				transition: all 0.5s ease-in-out;   
+			}
+		</style>
+	</HEAD>
+	<BODY>
+
+			<h4><abbr title="5 Seconds of Summer">5SOS</abbr> - Old me</h4>
+			<div class="wrapper-img">
+			<img src="5SOS.jpg" alt="" />
+			<img class="img-hide" src="5SOS1.jpg" alt="" />
+</div>
+
+	</BODY>
+</HTML>

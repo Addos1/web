@@ -1,0 +1,14 @@
+			body {color:#CD853F; font-family:Kunstler Script; font-size: 30pt; 
+			 background-image: url('Familie.jpg');
+			 background-size: 1200px;
+			 background-repeat: no-repeat;
+			 background-attachment: fixed;
+			 background-position: center; 
+			 
+			}
+			table {
+			border: 2px solid #CD853F; text-align: left;}
+			th, td {padding: 2px 10px 2px 10px;}
+			th {background-color: #FFF5EE;}
+			.fig {text-align: center; /* Выравнивание по центру */ }
+			div.a {margin-right:20%; margin-left:20%; margin-top:50%;}

@@ -1,0 +1,12 @@
+			body {color:#000000; font-family:Comic Sans MS; font-size: 20pt; background-color:#3CB371; 
+				}
+			div.a {margin-right:20%; margin-left:20%; }
+			.textBox {
+				background: lightgray;
+				float:left;
+				width:150px;
+				height:90px;
+				margin:5px;}
+		
+			a.two:hover {font-size:150%;}
+			a.two {text-decoration:none;}

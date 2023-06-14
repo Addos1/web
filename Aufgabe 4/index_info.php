@@ -1,0 +1,6 @@
+
+<?php
+PHPINFO();
+
+PHPINFO(INFO_MODULES);
+?>

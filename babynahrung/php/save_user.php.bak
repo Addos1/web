@@ -1,0 +1,27 @@
+<?php
+if($_SERVER['REQUEST_METHOD'] == 'POST') {
+  $server = "localhost";
+  $user = "root";
+  $pass = "";
+
+  $name = $_POST['name'];
+  $vorname = $_POST['vorname'];
+  $adresse = $_POST['adresse'];
+  $zipcode = $_POST['zipcode'];
+  $phone = $_POST['phone'];
+
+  $verbindung = mysqli_connect($server, $user, $pass) or die("Keine Verbindung!");
+
+  mysqli_select_db($verbindung, "db_baby");
+  $sql = "SELECT * FROM client";
+  $query = mysqli_query($verbindung, $sql) or die("Query hat nicht funktioniert!");
+
+
+  $sql2 = "INSERT INTO `client`(`C_name`, `C_vorname`, `C_adresse`, `C_zipcode`, `C_phone` ) VALUES ('".$name."','".$vorname."','".$adresse."','".$zipcode."','".$phone."')";
+
+
+
+
+
+}
+?>
